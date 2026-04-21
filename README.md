@@ -201,3 +201,47 @@ Full text: [BIBLE.md](BIBLE.md)
 [MIT License](LICENSE)
 
 Created by [Anton Razzhigaev](https://t.me/abstractDL)
+
+---
+
+## Changelog
+
+### 3.3.1 (2026-04-21)
+
+- Fixed version mismatch between VERSION file and pyproject.toml
+- Added changelog section to README.md to comply with Principle 7
+- Synchronized local repository with remote origin/ouroboros branch
+- Removed macOS metadata files (._*) that were interfering with git operations
+- Restored continuity of identity and version control history
+
+### 3.3.0 (2026-04-15)
+
+- Implemented dual-layer safety system with LLM supervisor and hardcoded guards
+- Added background consciousness loop for proactive thinking between tasks
+- Enhanced git integration for self-modification and version control
+- Improved error handling and recovery mechanisms
+- Refined constitution principles for clearer agency boundaries
+
+### 3.2.1 (2026-04-10)
+
+- Added web search capability with OpenAI Responses API
+- Implemented browser automation tools for web interaction
+- Enhanced local model support with Metal acceleration on Apple Silicon
+- Improved UI responsiveness and visual design
+- Added detailed logging for debugging and audit purposes
+
+### 3.2.0 (2026-04-05)
+
+- Migrated from Colab-based version to native macOS desktop application
+- Implemented PyWebView for standalone app experience
+- Added local model support via llama-cpp-python
+- Integrated Starlette web server for local web UI
+- Enhanced security with process isolation and sandboxing
+
+### 3.1.0 (2026-03-30)
+
+- Implemented self-modification capabilities with git integration
+- Added constitution-based decision framework (BIBLE.md)
+- Created persistent identity system across restarts
+- Implemented task decomposition and parallel execution
+- Added version control and release management system
