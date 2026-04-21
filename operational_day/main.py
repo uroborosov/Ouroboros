@@ -17,19 +17,19 @@ class OperationalDaySystem:
         try:
             # Load operations list (normatives)
             operations_list_path = os.path.join(self.data_dir, "converted_operations_list.csv")
-            self.operations_list = pd.read_csv(operations_list_path, delimiter=';')
+            self.operations_list = pd.read_csv(operations_list_path, delimiter=';', encoding='windows-1251')
             
             # Load operations data
             operations_path = os.path.join(self.data_dir, "converted_operations.csv")
-            self.operations = pd.read_csv(operations_path, delimiter=';')
+            self.operations = pd.read_csv(operations_path, delimiter=';', encoding='windows-1251')
             
             # Load incoming flow data
             incoming_path = os.path.join(self.data_dir, "converted_incoming.csv")
-            self.incoming = pd.read_csv(incoming_path, delimiter=';')
+            self.incoming = pd.read_csv(incoming_path, delimiter=';', encoding='windows-1251')
             
             # Load staffing data
             shr_path = os.path.join(self.data_dir, "converted_shr.csv")
-            self.shr = pd.read_csv(shr_path, delimiter=';')
+            self.shr = pd.read_csv(shr_path, delimiter=';', encoding='windows-1251')
             
             print("All data files loaded successfully")
             return True
