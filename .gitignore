@@ -1,9 +1,6 @@
+.venv/
+venv/
 __pycache__/
 *.pyc
-*.pyo
-*.so
-*.dylib
-*.dll
-*.dist-info/
-base_library.zip
+*.log
 .DS_Store
