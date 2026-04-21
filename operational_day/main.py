@@ -211,7 +211,7 @@ class OperationalDaySystem:
 # Example usage
 if __name__ == "__main__":
     # Create system instance
-    ops_system = OperationalDaySystem(data_dir="../data", reports_dir="reports")
+    ops_system = OperationalDaySystem(data_dir="data", reports_dir="operational_day/reports")
     
     # Run analysis
     report_path = ops_system.run_analysis()
